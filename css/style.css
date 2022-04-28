@@ -150,3 +150,35 @@
         transform: rotate(340deg); /* undicesimo esercizio */
     }
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: gotop 2s linear;
+}
+
+@keyframes gotop{
+    0%{
+        left: 10%;
+    }
+    50%{
+        left: calc(100% - 60px);   /* esercizio 12 provato, ma ho visto la soluzione */
+    }
+    100%{
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: gobottom 2s linear;
+}
+
+@keyframes gobottom{
+    0%{
+        right: 10%;
+    }
+    50%{
+        right: calc(100% - 60px);
+    }
+    100%{
+        right: 10%;
+    }
+}

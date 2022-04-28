@@ -38,6 +38,10 @@
     transition: filter 1.5s;
 }
 
+.ex-8-img{
+    transition: filter 2s, border-radius 2s;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
@@ -109,4 +113,9 @@
 
 .ex-7-img:hover{
     filter: sepia(1); /* settimo esercizio non mi da la possibilità di mettere due filtri */
+}
+
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: grayscale(.7); /* ottavo esercizio non funziona doppio filtro */
 }

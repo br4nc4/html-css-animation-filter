@@ -23,11 +23,12 @@
     background-color: red;
     transition: background-color 1.3s ;
 }
-.ex-5-square {
+.ex-5-square { /* quinto */
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    transition: transform 1s;
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
@@ -88,4 +89,12 @@
 
 .ex-4-square:hover{
     background-color: white; /* quarto esercizio */
+}
+
+.ex-5-square:hover{
+    transform: scale(2); /* quinto esercizio */
+}
+
+.ex-5-square:active{ 
+    transform: scale(.5); /* quinto esercizio */
 }

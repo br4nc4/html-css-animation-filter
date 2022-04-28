@@ -47,8 +47,10 @@
     width: 400px;
     transition: transform 1.5s ease-in-out, border-radius 1.5s, filter 1.5s;
 }
-.ex-10-icon {
+.ex-10-icon { /* decimo */
     font-size: 60px;
+    animation: roll 1s linear infinite;
+    transform: rotate(30deg);
 }
 .ex-11-icon {
     font-size: 60px;
@@ -125,4 +127,13 @@
     border-radius: 25px; /* nono esercizio no doppio filtro */
     filter: sepia(.9);
     transform: scale(1.5);
+}
+
+@keyframes roll{
+    0%{
+        transform: rotate(0);   /* decimo esercizio  */
+    }
+    100%{
+        transform: rotate(-360deg);   /* ho controllato il seguente link https://css-tricks.com/almanac/properties/t/transform/ */
+    }                                 /* il valore è negativo per far girare al contrario l'icona  come da esercizio */
 }

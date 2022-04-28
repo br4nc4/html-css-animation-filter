@@ -34,17 +34,18 @@
     width: 500px;
 }
 
-.ex-7-img{
+.ex-7-img{ /* settimo */
     transition: filter 1.5s;
 }
 
-.ex-8-img{
+.ex-8-img{ /* ottavo */
     transition: filter 2s, border-radius 2s;
 }
 
-.ex-9-img {
+.ex-9-img { /* nono */
     margin: 50px 100px;
     width: 400px;
+    transition: transform 1.5s ease-in-out, border-radius 1.5s, filter 1.5s;
 }
 .ex-10-icon {
     font-size: 60px;
@@ -118,4 +119,10 @@
 .ex-8-img:hover{
     border-radius: 20px;
     filter: grayscale(.7); /* ottavo esercizio non funziona doppio filtro */
+}
+
+.ex-9-img:hover{
+    border-radius: 25px; /* nono esercizio no doppio filtro */
+    filter: sepia(.9);
+    transform: scale(1.5);
 }

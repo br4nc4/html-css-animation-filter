@@ -34,6 +34,10 @@
     width: 500px;
 }
 
+.ex-7-img{
+    transition: filter 1.5s;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
@@ -97,4 +101,12 @@
 
 .ex-5-square:active{ 
     transform: scale(.5); /* quinto esercizio */
+}
+
+.ex-6-img:hover{
+    filter: grayscale(1); /* sesto esercizio */
+}
+
+.ex-7-img:hover{
+    filter: sepia(1); /* settimo esercizio non mi da la possibilità di mettere due filtri */
 }
